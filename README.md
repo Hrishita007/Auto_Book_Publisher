@@ -81,6 +81,7 @@ Built using **Python**, **Playwright**, **ChromaDB**, **SentenceTransformers**, 
 ---
 
 ## ✅ Instructions to Run
+### Replace the placeholder with API key in config.txt
 
 ### 1. Set up environment
 bash
