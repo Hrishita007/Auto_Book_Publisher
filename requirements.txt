@@ -1,0 +1,9 @@
+playwright
+openai
+chromadb
+requests
+beautifulsoup4
+lxml
+chromadb
+sentence-transformers
+
