@@ -61,25 +61,21 @@ Built using **Python**, **Playwright**, **ChromaDB**, **SentenceTransformers**, 
 
 ---
 
-## 🗃️ File Structure
+📂 File Structure
 
-softnerve/
-│
-├── main.py # Orchestrates full workflow
-├── scrape.py # Scrapes chapter and saves screenshot
-├── ai_writer.py # Rewrites chapter using LLM
-├── ai_reviewer.py # Provides feedback on rewritten text
-├── human_loop.py # Manual review + edit loop
-├── chroma_handler.py # Saves version to ChromaDB
-├── rl_search.py # Semantic search on saved content
-│
-├── /screenshots/ # Saved webpage screenshots
-├── /versions/ # Final and draft versions
-│
-├── config.txt # For API key
-├── requirements.txt # Python dependencies
-├── README.md # You're reading this!
-
+📁 softnerve/
+- `main.py` — Orchestrates full workflow
+- `scrape.py` — Scrapes chapter and saves screenshot
+- `ai_writer.py` — Rewrites chapter using LLM
+- `ai_reviewer.py` — Provides feedback on rewritten text
+- `human_loop.py` — Manual review + edit loop
+- `chroma_handler.py` — Saves version to ChromaDB
+- `rl_search.py` — Semantic search on saved content
+- `screenshots/` — Saved webpage screenshots
+- `versions/` — Final and draft versions
+- `config.txt` — For API key
+- `requirements.txt` — Python dependencies
+- `README.md` — You're reading this!
 
 
 ---
@@ -87,7 +83,7 @@ softnerve/
 ## ✅ Instructions to Run
 
 ### 1. Set up environment
-```bash
+bash
 pip install -r requirements.txt
 
 ### 2.  Run complete pipeline
@@ -95,9 +91,7 @@ bash
 
 python main.py
 
-
-#This will:
-
+## This will:
 Scrape chapter text + screenshot
 
 Rewrite with AI
@@ -110,16 +104,17 @@ Save to ChromaDB
 
 Allow semantic search of past versions
 
-###3. Search saved content
+### 3. Search saved content
 bash
 
 python human_loop.py
-Choose option 4 to search past rewritten chapters.
+
+# Choose option 4 to search past rewritten chapters.
 
 📸 Screenshot Example
 Saved to: screenshots/chapter1_page.png
 
-🚀 Submission Status
+# 🚀 Submission Status
 ✅ All required tasks are complete and verified:
 
  Web scraping
@@ -136,7 +131,7 @@ Saved to: screenshots/chapter1_page.png
 
  Modular and agentic design
 
-⚠️ Notes
+# ⚠️ Notes
 
 The code is designed for evaluation only.
 
@@ -144,6 +139,6 @@ AI agents are used ethically, and all human edits are logged.
 
 Plagiarism-free. No external copyrighted content used.
 
-📬 Contact
 Built for the Soft-Nerve Developer Evaluation Challenge.
+
 Commercial Use: ❌ Not intended.
