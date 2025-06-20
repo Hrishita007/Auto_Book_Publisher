@@ -139,6 +139,6 @@ AI agents are used ethically, and all human edits are logged.
 
 Plagiarism-free. No external copyrighted content used.
 
-📬 Contact
 Built for the Soft-Nerve Developer Evaluation Challenge.
+
 Commercial Use: ❌ Not intended.
