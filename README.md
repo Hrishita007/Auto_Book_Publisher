@@ -61,25 +61,21 @@ Built using **Python**, **Playwright**, **ChromaDB**, **SentenceTransformers**, 
 
 ---
 
-## 🗃️ File Structure
+📂 File Structure
 
-softnerve/
-│
-├── main.py # Orchestrates full workflow
-├── scrape.py # Scrapes chapter and saves screenshot
-├── ai_writer.py # Rewrites chapter using LLM
-├── ai_reviewer.py # Provides feedback on rewritten text
-├── human_loop.py # Manual review + edit loop
-├── chroma_handler.py # Saves version to ChromaDB
-├── rl_search.py # Semantic search on saved content
-│
-├── /screenshots/ # Saved webpage screenshots
-├── /versions/ # Final and draft versions
-│
-├── config.txt # For API key
-├── requirements.txt # Python dependencies
-├── README.md # You're reading this!
-
+📁 softnerve/
+- `main.py` — Orchestrates full workflow
+- `scrape.py` — Scrapes chapter and saves screenshot
+- `ai_writer.py` — Rewrites chapter using LLM
+- `ai_reviewer.py` — Provides feedback on rewritten text
+- `human_loop.py` — Manual review + edit loop
+- `chroma_handler.py` — Saves version to ChromaDB
+- `rl_search.py` — Semantic search on saved content
+- `screenshots/` — Saved webpage screenshots
+- `versions/` — Final and draft versions
+- `config.txt` — For API key
+- `requirements.txt` — Python dependencies
+- `README.md` — You're reading this!
 
 
 ---
