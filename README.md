@@ -87,7 +87,7 @@ softnerve/
 ## ✅ Instructions to Run
 
 ### 1. Set up environment
-```bash
+bash
 pip install -r requirements.txt
 
 ### 2.  Run complete pipeline
@@ -95,9 +95,7 @@ bash
 
 python main.py
 
-
-#This will:
-
+## This will:
 Scrape chapter text + screenshot
 
 Rewrite with AI
@@ -110,16 +108,17 @@ Save to ChromaDB
 
 Allow semantic search of past versions
 
-###3. Search saved content
+### 3. Search saved content
 bash
 
 python human_loop.py
-Choose option 4 to search past rewritten chapters.
+
+# Choose option 4 to search past rewritten chapters.
 
 📸 Screenshot Example
 Saved to: screenshots/chapter1_page.png
 
-🚀 Submission Status
+# 🚀 Submission Status
 ✅ All required tasks are complete and verified:
 
  Web scraping
@@ -136,7 +135,7 @@ Saved to: screenshots/chapter1_page.png
 
  Modular and agentic design
 
-⚠️ Notes
+# ⚠️ Notes
 
 The code is designed for evaluation only.
 
